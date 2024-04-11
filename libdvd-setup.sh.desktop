@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=libdvd-setup-autostart
+Comment="Autostart libdvd-setup.sh in xterm on first login"
+Type=Application
+Exec=/usr/bin/xterm -e '/home/vagrant/libdvd-setup.sh'
+# Hidden=false
+# NoDisplay=false
+# X-GNOME-Autostart-enabled=true
+# X-GNOME-Autostart-Delay=10
